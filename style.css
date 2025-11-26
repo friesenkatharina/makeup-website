@@ -984,10 +984,9 @@ margin-top: 4em;
 
 .media-element > p {
   font-size: 1.4rem;
-  color: var(--white);
+  color: black;
 }
 
-/* Snap-Scrolling */
 .snaps-inline {
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: var(--_spacer, 1rem);
@@ -1007,7 +1006,7 @@ margin-top: 4em;
 
 /* ===== Responsive Breakpoints ===== */
 
-/* Tablet: etwas breitere Kacheln (3 pro Reihe max.) */
+
 @media (max-width: 992px) {
   .page-header .heading {
     font-size: 60px;
@@ -1018,14 +1017,14 @@ margin-top: 4em;
   }
 }
 
-/* Kleine Tablets / große Smartphones: 2 große Kacheln sichtbar */
+
 @media (max-width: 768px) {
   .media-scroller {
     grid-auto-columns: minmax(280px, 50%);
   }
 }
 
-/* Smartphones (iOS & Android): 1–1,5 Kacheln -> schön groß */
+
 @media (max-width: 600px) {
   .page-header {
     margin-top: 60px;
