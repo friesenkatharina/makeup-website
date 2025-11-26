@@ -346,6 +346,7 @@ button:hover {
 
   .services .box-container {
     gap: 1.5rem;
+        grid-template-columns: 1fr;
   }
 
   .services .box-container .box img {
